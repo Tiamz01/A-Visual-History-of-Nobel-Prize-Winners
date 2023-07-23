@@ -1,6 +1,6 @@
 # Nobel Prize Analysis 
 
-This Jupyter notebook explores the open dataset of Nobel Prize winners from 1901 to 2016 to uncover insights related to demographics, trends, and statistics.
+This analysis explores the open dataset of Nobel Prize winners from 1901 to 2016 to uncover insights related to demographics, trends, and statistics.
 
 ## Data
 
@@ -10,11 +10,13 @@ The dataset contains details on over 900 prize winners including name, category,
 
 The analysis focuses on:
 
-- Determining most common winner demographics like gender, country, and age
+- Determining the most common winner demographics like gender, country, sex and age
 - Visualizing award share over time by country and gender
-- Identifying repeat winners and youngest/oldest winners 
+- Identifying repeat winners and youngest/oldest winners
+- Identifying USA dominance 
 - Comparing award age differences across prize categories
-- Mapping global distribution of winners over time
+- Mapping the global distribution of winners over time
+- The name of the youngest winner of the Nobel Prize as of 2016 is 'Malala'
 
 ![Sample Visualization](sample_visualization.png)
 
@@ -24,9 +26,9 @@ The analysis utilizes Python and libraries like Pandas, Numpy, Matplotlib, and S
 
 ## Key Insights
 
-- Physics, Medicine, Chemistry account for majority of prizes
+- Physics, Medicine, and Chemistry account for the majority of prizes
 - Winners are overwhelmingly male, especially in Physics, Chemistry, Economics
-- USA dominates recipient country starting in 1930s
+- USA dominates recipient country starting in the 1930s
 - Repeat winners are rare, with some winning twice in similar categories 
 - Winner age has increased over time, except for Peace Prize
 
@@ -34,4 +36,4 @@ The analysis utilizes Python and libraries like Pandas, Numpy, Matplotlib, and S
 
 Potential extensions could include correlation analysis, prediction modeling, social network analysis of winners, and more advanced visualizations.
 
-Let me know if you would like me to modify or extend this README file further. I can add more details on the analysis, results, and contents of the notebook.
+
